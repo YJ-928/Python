@@ -3,7 +3,7 @@
 
 # importing required libraries
 from os import path
-from project_CaeserChiperArt import logo
+from art import logo
 import time
 
 # creating a alphabet array to shift letters from and to new positions inside user_text
@@ -15,7 +15,7 @@ Quit = False
 
 
 def CaesarCipher(plain_text, shift_amount, cipher_direction):
-    # creating a function to do encoding and decoding
+    """ a function to do encoding and decoding """
     end_chipher = ""  # empty string
     end_text = "encoded"
     # making shift_amount negative if direction is decode

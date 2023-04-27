@@ -1,8 +1,8 @@
 # The Hangman Game
 # importing path from os to import req python files as modules & importing other req lib's
 from os import path
-from project_Hangman_words import word_list
-from project_Hangman_art import logo, stages
+from words import word_list
+from art import logo, stages
 import random
 import time
 
