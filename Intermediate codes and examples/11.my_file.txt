@@ -1,3 +1,0 @@
-Hello this is python writing.
-HEllo, this is python again,
-writing using with open now
